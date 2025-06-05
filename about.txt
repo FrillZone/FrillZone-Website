@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | FrillZone</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #fafafa;
+      color: #333;
+    }
+    header, footer {
+      background: #000;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .about-section {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      text-align: center;
+    }
+    .about-section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+    .about-section p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+    .highlight {
+      color: #bfa26d;
+      font-weight: bold;
+    }
+    .founder-message {
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 0 20px;
+      text-align: center;
+    }
+    .founder-message h3 {
+      color: #bfa26d;
+      margin-bottom: 15px;
+    }
+    .founder-message p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      font-style: italic;
+    }
+    .founder-message strong {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+      font-style: normal;
+    }
+    .testimonials {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .testimonials h3 {
+      color: #bfa26d;
+      text-align: center;
+      margin-bottom: 25px;
+    }
+    .testimonial-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    blockquote {
+      background: #fff;
+      border-left: 5px solid #bfa26d;
+      padding: 15px 20px;
+      max-width: 300px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      font-style: italic;
+      margin: 0;
+    }
+    blockquote strong {
+      display: block;
+      margin-top: 10px;
+      font-style: normal;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>FrillZone</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="categories.html">Categories</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="about-section">
+    <h2>About FrillZone</h2>
+    <p>
+      Welcome to <span class="highlight">FrillZone</span> — your ultimate destination for curated fashion luxury. Born from a passion for high-end style and elegance, FrillZone is more than just a store — it's a lifestyle statement.
+    </p>
+    <p>
+      We specialize in handpicked collections that bring together timeless luxury and modern flair. From sophisticated watches and iconic bags to refined footwear and dazzling accessories, every item reflects our commitment to quality and uniqueness.
+    </p>
+    <p>
+      Whether you're dressing for success or celebrating your personal style, FrillZone is where luxury meets accessibility. Our mission is to empower you to wear what you deserve.
+    </p>
+    <p>
+      Thank you for choosing <span class="highlight">FrillZone</span> — where elegance never goes out of fashion.
+    </p>
+  </section>
+
+  <section class="founder-message">
+    <h3>A Word from Our Founder</h3>
+    <p>
+      “At FrillZone, luxury is not just about what you wear — it’s about how you feel. Our mission is to bring you timeless elegance with every piece, empowering you to express your unique style confidently.”
+    </p>
+    <strong>– Anany Mehrotra, Founder</strong>
+  </section>
+
+  <section class="testimonials">
+    <h3>What Our Customers Say</h3>
+    <div class="testimonial-list">
+      <blockquote>
+        “The quality of the bags is unmatched. FrillZone truly understands luxury.”
+        <strong>- Priya S.</strong>
+      </blockquote>
+      <blockquote>
+        “My go-to place for watches. Elegant and classy!”
+        <strong>- Rohit K.</strong>
+      </blockquote>
+      <blockquote>
+        “Amazing customer service and prompt delivery. Highly recommend.”
+        <strong>- Anjali M.</strong>
+      </blockquote>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 FrillZone | Crafted with elegance
+  </footer>
+</body>
+</html>
